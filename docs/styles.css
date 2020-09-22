@@ -2,6 +2,10 @@ body {
 	font-family: 'Barlow Regular', 'Barlow', sans-serif;
 }
 
+main .content {
+	font-size: larger;
+}
+
 header img {
 	width: 100%;
 }
