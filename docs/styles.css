@@ -1,9 +1,27 @@
 body {
-	font-family: 'Barlow Regular', 'Barlow', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #4A4A4C;
+	font-weight: 500;
+	color: white;
 }
 
 main .content {
 	font-size: larger;
+}
+
+main .content a {
+	color: #ff8332;
+	font-weight: 300;
+}
+
+main .content a:hover,
+.fa:hover {
+	color: white;
+}
+
+main .content a:active,
+.fa:active {
+	color: red;
 }
 
 header img {
@@ -12,10 +30,15 @@ header img {
 
 footer {
 	font-size: smaller;
-	color: #444444;
+	color: #ff8332;
 }
 
 .fa {
 	font-size: 30px;
-	color: #444444;
+	color: #ff8332;
+}
+
+:focus {
+	  outline: 3px solid #1A1A1A;
+	  outline-offset: 1px;
 }

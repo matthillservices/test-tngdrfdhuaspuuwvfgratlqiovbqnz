@@ -6,12 +6,26 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+	<!-- SEO meta tags - General -->
+	<meta content="company" property="og:type">
+	<meta content="images/logo.jpg" property="og:image">
+	<meta content="Matt Hill Electrical Services" property="og:site_name">
+	<meta
+		content="Matt Hill Electrical Services provide electrical, data and home automation services for home, commercial and construction. We cover the South East Queensland including Brisbane, Logan, Ipswich, Redlands, Gold and Sunshine Coasts and more!"
+		property="og:description">
+
+	<!-- SEO meta tags - Page Specific -->
+	<meta name="description"
+		content="Matt Hill Electrical Services provide electrical, data and home automation services for home, commercial and construction. We cover the South East Queensland including Brisbane, Logan, Ipswich, Redlands, Gold and Sunshine Coasts and more! Contact us to discuss your job today!">
+	<meta name="Keywords" content="Contact Us, Matt Hill Electrical Services">
+
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet" />
 
 	<!-- Font Awesome CSS Library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,7 +34,7 @@
 	<link rel="stylesheet" href="styles.css" />
 
 	<title>
-		Matt Hill Services
+		Contact Us | Matt Hill Electrical Services | 0414 715 016
 	</title>
 
 	<!-- Required JS libraries -->
@@ -33,13 +47,30 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
 		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
 		</script>
+
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Electrician",
+			"@id": "https://mhes.com.au/",
+			"name": "Matt Hill Electrical Services",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Buccan",
+				"addressRegion": "QLD",
+				"postalCode": "4207",
+				"addressCountry": "AU"
+			},
+			"url": "https://mhes.com.au/",
+			"telephone": "+61414715016"
+		}
+	</script>
 </head>
 
 <body>
 	<div class="container">
 		<header>
-			<img src="images/logo.png" alt="Matt Hill Services: Electical, Data and Air Conditioning Logo"
-				title="Matt Hill Services: Electical, Data and Air Conditioning" />
+			<img src="images/logo.jpg" alt="Matt Hill Electrical Services Logo" title="Matt Hill Electrical Services" />
 		</header>
 		<main>
 			<div class="row">
@@ -53,7 +84,7 @@
 						Email:
 					</div>
 					<div class="col-auto text-left">
-						<a href="mailto:Admin@matthillservices.com.au">Admin@matthillservices.com.au</a>
+						<a href="mailto:matt@mhes.com.au">matt@mhes.com.au</a>
 					</div>
 				</div>
 				<div class="row pt-1">
@@ -61,7 +92,7 @@
 						Phone:
 					</div>
 					<div class=" col-auto text-left">
-						<a href="tel:0414715016">0414715016</a>
+						<a href="tel:0414715016">0414 715 016</a>
 					</div>
 				</div>
 				<div class="row pt-1">
@@ -69,7 +100,7 @@
 						Web:
 					</div>
 					<div class=" col-auto text-left">
-						<a href="https://matthillservices.com.au">https://matthillservices.com.au</a>
+						<a href="https://mhes.com.au">https://mhes.com.au</a>
 					</div>
 				</div>
 			</div>
@@ -79,8 +110,8 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col text-right pr-1">Follow us</div>
 					<div class="col text-left pl-1">
-						<a href="https://www.facebook.com/carbuncle.carbuncle.9" target="_blank"
-							class="pr-1 fa fa-facebook-official"></a>
+						<a href="https://www.facebook.com/Matt-Hill-Electrical-Services-101472985242160/"
+							target="_blank" class="pr-1 fa fa-facebook-official"></a>
 						<a href="https://www.instagram.com/mattyhill.99/" target="_blank" class=" fa fa-instagram"></a>
 					</div>
 				</div>
