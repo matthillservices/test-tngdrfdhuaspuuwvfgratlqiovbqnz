@@ -30,9 +30,6 @@
 	<!-- Font Awesome CSS Library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<!-- My CSS -->
-	<link rel="stylesheet" href="styles.css" />
-
 	<title>
 		Contact Us | Matt Hill Electrical Services | 0414 715 016
 	</title>
@@ -49,19 +46,36 @@
 		</script>
 
 	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Electrician",
-			"@id": "https://mhes.com.au/",
-			"name": "Matt Hill Electrical Services",
-			"image": [
-				"https://test-tngdrfdhuaspuuwvfgratlqiovbqnz.matthillservices.com.au/images/tag.jpg"
-			],
-			"url": "https://mhes.com.au/",
-			"telephone": "+61414715016",
-			"email": "matt@mhes.com.au"
-		}
+		[
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Contact Us",
+                        "item": "https://mhes.com.au/index.html"
+                    }
+                ]
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "Electrician",
+                "@id": "https://mhes.com.au/",
+                "name": "Matt Hill Electrical Services",
+                "image": [
+                    "https://mhes.com.au/images/tag.jpg"
+                ],
+                "url": "https://mhes.com.au/",
+                "telephone": "+61414715016",
+                "email": "matt@mhes.com.au"
+            }
+        ]
 	</script>
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -69,6 +83,22 @@
 		<header>
 			<img src="images/logo.jpg" alt="Matt Hill Electrical Services Logo" title="Matt Hill Electrical Services" />
 		</header>
+		<nav class="navbar navbar-expand-lg navbar-dark mhes-second-bg">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Contact Us <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ourwork.html">Our Work</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 		<main>
 			<div class="row">
 				<h1>

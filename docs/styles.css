@@ -5,23 +5,55 @@ body {
 	color: white;
 }
 
+.mhes-second-bg {
+	background-color: #1A1A1A;
+}
+
+.mhes-third-bg {
+	background-color: #666666;
+}
+
+.mhes-button {
+	background-color: #666666;
+	border-color: #1A1A1A;
+}
+
+.breadcrumb.mhes-third-bg > .active,
+.breadcrumb.mhes-third-bg > .active::before {
+	color: #cccccc;
+}
+
+main h1 {
+	padding-top: 1rem;
+}
+
 main .content {
 	font-size: larger;
 }
 
-main .content a {
+main .content a,
+.like-comment-contact a,
+.breadcrumb.mhes-third-bg a {
 	color: #ff8332;
 	font-weight: 300;
 }
 
 main .content a:hover,
-.fa:hover {
+.fa:hover,
+.like-comment-contact a:hover,
+.breadcrumb.mhes-third-bg a:hover {
 	color: white;
 }
 
 main .content a:active,
-.fa:active {
+.fa:active,
+.like-comment-contact a:active,
+.breadcrumb.mhes-third-bg a:active {
 	color: red;
+}
+
+.like-comment-contact a.fa {
+	font-size: 1rem;
 }
 
 header img {
