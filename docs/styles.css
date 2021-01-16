@@ -52,10 +52,6 @@ main .content a:active,
 	color: red;
 }
 
-.like-comment-contact a.fa {
-	font-size: 1rem;
-}
-
 header img {
 	width: 100%;
 }
@@ -65,12 +61,12 @@ footer {
 	color: #ff8332;
 }
 
-.fa {
+footer .fa {
 	font-size: 30px;
 	color: #ff8332;
 }
 
 :focus {
-	  outline: 3px solid #1A1A1A;
+	  outline: 3px solid #0e0d0d;
 	  outline-offset: 1px;
 }
